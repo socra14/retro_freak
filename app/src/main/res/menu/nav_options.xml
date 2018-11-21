@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/categorias"
+            android:title="categorias"
+            android:icon="@android:drawable/ic_menu_gallery"/>
+        <item
+            android:id="@+id/figuras"
+            android:title="figuras"
+            android:icon="@drawable/figura"/>
+
+
+
+        <item
+            android:id="@+id/camisetas"
+            android:title="Camisetas"
+            android:icon="@android:drawable/ic_menu_gallery"/>
+
+        <item
+            android:id="@+id/informatica"
+            android:title="Informatica "
+            android:icon="@drawable/llavero"/>
+
+
+    </group>
+
+    <item android:title="Otras Opciones">
+
+        <menu>
+
+            <item
+                android:id="@+id/contactar"
+                android:title="Contactar"
+                android:icon="@android:drawable/ic_dialog_map"/>
+            <item
+
+                android:id="@+id/ayuda"
+                android:title="Ayuda"
+                android:icon="@android:drawable/ic_dialog_info"/>
+
+        </menu>
+
+    </item>
+
+</menu>
